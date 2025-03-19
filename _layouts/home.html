@@ -23,7 +23,7 @@
         <!-- HERO -->
         <section id="hero-anchored">
             <div class="container my-5">
-                <div class="row p-4 rounded-3 lift align-items-center min-vh-75">
+                <div class="row p-4 rounded-3 border shadow-lg lift align-items-center min-vh-75 bg-theme-white">
                     <div class="col-lg-10 p-lg-5">
                         <h3 class="fs-5 text-primary text-uppercase tracking-widest">A Curated Collection</h3>
                         <h2 class="fs-jumbo-4 tracking-tight">
@@ -41,47 +41,10 @@
             </div>
         </section>
 
-        <section>
-            <div class="container mx-auto my-5">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="card rounded-0">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img class="img-fluid"
-                                    src="{{ page.img.sq }}" 
-                                    alt="{{ page.img.alt }}" 
-                                    loading="lazy">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="hero">
-            <div class="container mx-auto my-5">
-                <div class="row shadow-lg lift align-items-center">
-                    <div class="col-12 px-0">   
-                        <div class="d-flex flex-row">
-                            <img class="d-block col-6"
-                            src="{{ page.img.sq }}" 
-                            alt="{{ page.img.alt }}" 
-                            loading="lazy">
-                            <div class="col-6">
-                                <h2>Ineffable Sea of Love</h2>
-                                <h3 class="text-subtle h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quidem dolores facere, neque suscipit corporis architecto! Adipisci eius, laborum laudantium architecto nihil temporibus voluptatibus fuga molestias delectus, possimus, veritatis accusamus.</h3>    
-                            </div>
-                        </div>                  
-                    </div>
+        <section id="ancient-prayers">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 gy-5">
+                    {% include content/home/ancient-prayers.html %}
                 </div>
             </div>
         </section>
