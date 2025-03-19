@@ -115,6 +115,31 @@
 }
 
 /* Height */
+@media (min-width: 768px) {
+    .max-h-md-25 {
+        max-height: 25%;
+    }
+
+    .max-h-md-50 {
+        max-height: 50%;
+    }
+
+    .max-w-md-25 {
+        max-width: 25%;
+    }
+
+    .max-w-md-50 {
+        max-width: 50%;
+    }
+}
+
+.max-vh-25 {
+    max-height: 25vh;
+}
+
+.min-vh-25 {
+    min-height: 25vh;
+}
 
 .min-vh-50 {
     min-height: 50vh;
@@ -225,3 +250,33 @@
 .overlay-muted {
     background: rgba(var(--theme-color-neutral-muted-rgb), 0.75);
 }
+
+.box {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+  
+.box:after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.square {
+    position: relative;
+  }
+  
+  .square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  
+  .square img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }

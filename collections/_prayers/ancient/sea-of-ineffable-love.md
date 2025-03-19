@@ -5,6 +5,7 @@ lead: A third-century prayer from the Syrian Clementine Liturgy
 era: ancient
 tags: ancient praise petition
 img:
+    sq: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sm.webp
     md: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-md.webp
     lg: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-lg.webp
