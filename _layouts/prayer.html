@@ -16,24 +16,14 @@
     <!-- navigation -->
     {% include nav.html %}
     <!-- header content -->
-    <div class="min-vh-100 position-relative overflow-hidden">
-        <img class="d-block w-100 h-100 position-absolute object-cover object-center" 
-            src="{{ page.img.lg }}" 
-            alt="{{ page.img.alt }}"
-            loading="eager"
-            fetchpriority="high">
-        <div class="overlay overlay-primary">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-12 col-lg-8 text-white">
-                        <h1 class="fs-jumbo-1 tracking-tight lh-1">{{ page.title }}</h1>
-                        <p class="lead w-lg-75">{{ page.lead }}</p>
-                        <div class="text-md-start mt-4">
-                            <a class="btn btn-lg btn-accent shadow lift" href="#">
-                                Read
-                                <i class="bi bi-arrow-right-circle"></i>
-                            </a>
-                        </div>
+    <div class="container mx-auto pt-8">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 text-center">
+                <div>
+                    <small class="d-block text-primary fw-bold text-uppercase mb-2 tracking-widest">{{ page.era }} Prayers</small>
+                    <h1 class="fs-jumbo-2 tracking-tight lh-1 mb-3">{{ page.title }}</h1>
+                    <div class="d-flex justify-content-center">
+                        <h2 class="col-12 col-lg-10 h6 lead text-subtle">{{ page.lead }}</h2>
                     </div>
                 </div>
             </div>
@@ -42,13 +32,28 @@
   </header>
 
   <!-- main -->
-    <main class="mt-5 mt-md-3">
-        <div class="container min-vh-100">
-            <div class="row">
-                <div class="col">{{ content }}
+    <main class="mt-4 mb-8 min-vh-100">
+        <section class="prayer">
+            <div class="container mx-auto">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="d-block mx-auto shadow rounded img-fluid"
+                        srcset="{{ page.img.sm }} 854w, {{ page.img.md }} 1280w, {{ page.img.lg }} 2560w"
+                        src="{{ page.img.sm }}"
+                        alt="{{ page.img.alt }}"
+                        loading="eager"
+                        fetchpriority="high">
+                    </div>
+                    <div class="col-12 col-md-10 col-xl-7 font-serif mt-4 mt-md-5 px-4">
+                        <hr class="w-50 mx-auto text-subtle">
+                        <div class="prayer-content py-4">
+                            {{ content }}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
     </main>
     <!-- footer -->
     {% include footer.html %}
