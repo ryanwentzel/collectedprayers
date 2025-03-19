@@ -15,7 +15,7 @@ collections:
     permalink: /:title
   prayers:
     output: true
-    permalink: /:collection/:title
+    permalink: /:path
 
 defaults:
   - scope:
@@ -28,6 +28,11 @@ defaults:
       type: prayers
     values:
       layout: prayer
+  - scope:
+      path: "ancient"
+      type: prayers
+    values:
+      era: ancient
 
 # Build settings
 plugins:
