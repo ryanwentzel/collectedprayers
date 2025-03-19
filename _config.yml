@@ -15,7 +15,7 @@ collections:
     permalink: /:title
   prayers:
     output: true
-    permalink: /:era/:title
+    permalink: /:collection/:title
 
 defaults:
   - scope:
@@ -27,7 +27,7 @@ defaults:
       path: ""
       type: prayers
     values:
-      layout: 
+      layout: prayer
 
 # Build settings
 plugins:
@@ -48,6 +48,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
+  - script/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
