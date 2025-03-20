@@ -1,6 +1,6 @@
 ---
-title: Sea of Ineffable Love
-date: 2025-03-18 09:58:00 -0800
+title: Have Mercy on Us
+date: 2025-03-15 09:58:00 -0800
 lead: A third-century prayer from the Syrian Clementine Liturgy
 era: ancient
 tags: ancient praise petition
