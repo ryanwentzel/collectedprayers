@@ -34,7 +34,7 @@ reformation:
 modern:
   id: modern
   name: Modern Church
-  years: 1700–1900
+  years: 1700–1945
   img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
@@ -45,7 +45,7 @@ modern:
 contemporary:
   id: contemporary
   name: Contemporary Church
-  years: 1900–Present
+  years: 1945–Present
   img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
