@@ -1,4 +1,5 @@
-{%- assign item = site.reformation_prayers | reverse | find: "featured", true -%}
+{%- assign items = site.prayers | where: "era", "reformation" -%}
+{%- assign item = items | reverse | find: "featured", true -%}
 {%- unless item == nil %}
 <div class="d-flex flex-wrap justify-content-center align-items-center position-relative overflow-hidden">
     <div class="d-flex flex-column col-12 col-lg-7">

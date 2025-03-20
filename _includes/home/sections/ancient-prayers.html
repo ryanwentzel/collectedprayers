@@ -1,4 +1,4 @@
-{%- assign items = site.ancient_prayers | limit: 9 -%}
+{%- assign items = site.prayers | where: "era", "ancient" | reverse | limit: 9 -%}
 {%- unless items.size == 0 -%}
 <div>
     <div>

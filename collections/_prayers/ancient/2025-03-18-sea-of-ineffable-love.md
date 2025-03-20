@@ -1,8 +1,7 @@
 ---
-title: Your Kingdom Come
-date: 2025-03-17 09:58:00 -0800
+title: Sea of Ineffable Love
+date: 2025-03-18 09:58:00 -0800
 lead: A third-century prayer from the Syrian Clementine Liturgy
-era: ancient
 tags: ancient praise petition
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sq.webp

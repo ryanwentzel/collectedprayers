@@ -10,17 +10,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Collections
 collections_dir: collections
 collections:
-  ancient_prayers:
-    output: true
-    permalink: /ancient/:title
-    display_name: Ancient Prayers
   pages:
     output: true
     permalink: /:title
-  reformation_prayers:
+  prayers:
     output: true
-    permalink: /reformation/:title
-    display_name: Reformation Prayers
+    permalink: /prayers/:title
 
 
 defaults:
@@ -31,15 +26,18 @@ defaults:
       layout: 
   - scope:
       path: ""
-      type: ancient_prayers
+      type: prayers
     values:
       layout: prayer
+  - scope:
+      path: "_prayers/ancient"
+      type: prayers
+    values:
       era: ancient
   - scope:
-      path: ""
-      type: reformation_prayers
+      path: "_prayers/reformation"
+      type: prayers
     values:
-      layout: prayer
       era: reformation
 
 # Build settings
