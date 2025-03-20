@@ -13,12 +13,15 @@ collections:
   ancient_prayers:
     output: true
     permalink: /ancient/:title
+    display_name: Ancient Prayers
   pages:
     output: true
     permalink: /:title
-  prayers:
+  reformation_prayers:
     output: true
-    permalink: /prayers/:title
+    permalink: /reformation/:title
+    display_name: Reformation Prayers
+
 
 defaults:
   - scope:
@@ -28,15 +31,16 @@ defaults:
       layout: 
   - scope:
       path: ""
-      type: prayers
-    values:
-      layout: prayer
-  - scope:
-      path: ""
       type: ancient_prayers
     values:
       layout: prayer
       era: ancient
+  - scope:
+      path: ""
+      type: reformation_prayers
+    values:
+      layout: prayer
+      era: reformation
 
 # Build settings
 plugins:
