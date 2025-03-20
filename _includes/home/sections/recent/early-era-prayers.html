@@ -2,7 +2,7 @@
 {%- unless items.size == 0 -%}
 <div>
     <div>
-        <h2 class="my-4 tracking-tight fs-6">Ancient Prayers</h2>
+        <h2 class="my-4 tracking-tight fs-6">{{ items[0].era_display_name }}</h2>
     </div>
     <div class="row row-cols-1 row-cols-md-4 gy-5">
         {% for item in items -%}
