@@ -1,7 +1,7 @@
 ---
-title: Eternal and Ever-Blessed God
 date: 2025-03-20 14:23:00 -0700
-lead: A prayer of adoration from the <em>Book of Common Worship</em> (1906).
+title: Eternal and Ever-Blessed God
+lead: A prayer of adoration from the <em>Book of Common Worship</em> (1906)
 tags: adoration
 source:
     id: common-worship-1906

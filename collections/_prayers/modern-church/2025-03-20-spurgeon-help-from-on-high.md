@@ -1,6 +1,6 @@
 ---
+date: 2025-03-20 09:58:00 -0700
 title: Help from on High
-date: 2025-03-20 09:58:00 -0800
 lead: A Sunday morning prayer by Charles Spurgeon
 tags: petition
 img:

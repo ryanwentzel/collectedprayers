@@ -1,6 +1,6 @@
 ---
-title: Sea of Ineffable Love
 date: 2025-03-18 09:58:00 -0800
+title: Sea of Ineffable Love
 lead: A third-century prayer from the Syrian Clementine Liturgy
 tags: ancient praise petition
 img:

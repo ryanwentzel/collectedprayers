@@ -1,7 +1,8 @@
 ---
-title: The General Thanksgiving
 date: 2025-03-20 13:51:00 -0700
-lead: An extended prayer of thanks to God from the 1662 Book of Common Prayer.
+title: The General Thanksgiving
+lead: An extended prayer of gratitude from the 1662 Book of Common Prayer
+featured: true
 tags: thanksgiving bcp
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sq.webp

@@ -1,6 +1,6 @@
 ---
-title: We Praise You, O Lord
 date: 2025-03-12 09:58:00 -0800
+title: We Praise You, O Lord
 lead: A third-century prayer from the Syrian Clementine Liturgy
 tags: ancient praise petition
 img:

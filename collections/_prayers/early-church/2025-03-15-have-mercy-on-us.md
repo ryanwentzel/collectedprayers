@@ -1,6 +1,6 @@
 ---
-title: Have Mercy on Us
 date: 2025-03-15 09:58:00 -0800
+title: Have Mercy on Us
 lead: A third-century prayer from the Syrian Clementine Liturgy
 tags: ancient praise petition
 img:
