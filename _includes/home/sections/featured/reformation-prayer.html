@@ -1,0 +1,19 @@
+{%- assign item = site.reformation_prayers | reverse | find: "featured", true -%}
+{%- unless item == nil %}
+<div class="d-flex flex-wrap justify-content-center align-items-center position-relative overflow-hidden">
+    <div class="d-flex flex-column col-12 col-lg-7">
+        <img class="img-fluid rounded" 
+        src="https://dummyimage.com/1280x16:9/cccccc/fff.png" 
+        alt="">
+    </div>
+    <div class="d-flex flex-column col ms-lg-5 flex-grow-1">
+        <div class="py-4 mx-auto text-center">
+            <a class="d-block stretched-link w-100 text-reset text-decoration-none" 
+            href="{{ item.url | relative_url}}">
+                <h2 class="fs-jumbo-2 lh-1 mb-0">{{ item.title }}</h2>
+            </a>
+            <span class="text-subtle fs-4 lead">{{ item.lead }}</span>
+        </div>
+    </div>
+</div>
+{%- endunless %}

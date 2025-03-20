@@ -1,9 +1,9 @@
 ---
 title: Our Daily Bread
 date: 2025-03-10 09:58:00 -0800
-lead: A third-century prayer from the Syrian Clementine Liturgy
-era: ancient
-tags: ancient praise petition
+lead: A prayer of petition from 16th-century Strassbourg
+tags: praise petition
+featured: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sm.webp
