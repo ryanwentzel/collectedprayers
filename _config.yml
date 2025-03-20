@@ -39,6 +39,11 @@ defaults:
       type: prayers
     values:
       era: reformation
+  - scope:
+      path: "_prayers/modern-church"
+      type: prayers
+    values:
+      era: modern
 
 # Build settings
 plugins:
