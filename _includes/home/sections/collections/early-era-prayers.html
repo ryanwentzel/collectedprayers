@@ -2,9 +2,7 @@
 {%- unless items.size == 0 -%}
 <div class="row gy-5 align-items-center">
     <div class="col-12 col-lg-6 px-5">
-        <img class="img-fluid rounded lift shadow" 
-            src="{{ site.data.eras.early.img.md }}" 
-            alt="{{ site.data.eras.early.img.alt }}">
+        {% include components/img/responsive.html img=site.data.eras.early.img classes="rounded lift shadow" %}
     </div>
     <div class="col-12 col-lg-6 px-4 px-lg-5 h-100">
         <h4 class="tracking-wide fs-sm text-uppercase text-primary">Prayers</h4>
