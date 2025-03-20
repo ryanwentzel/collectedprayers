@@ -1,0 +1,19 @@
+early:
+  id: early
+  name: Early Church
+  img:
+    sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
+    sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
+    md: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-md.webp
+    lg: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-lg.webp
+    alt: "Reformation Wall in Geneva"
+
+reformation:
+  id: reformation
+  name: Reformation Church
+  img:
+    sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
+    sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
+    md: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-md.webp
+    lg: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-lg.webp
+    alt: "Reformation Wall in Geneva"

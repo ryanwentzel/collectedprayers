@@ -1,14 +1,14 @@
-{%- assign items = site.prayers | where: "era", "early" | reverse | limit:3 -%}
+{%- assign items = site.prayers | where: "era", site.data.eras.early.id | reverse | limit:3 -%}
 {%- unless items.size == 0 -%}
 <div class="row gy-5">
     <div class="col-12 col-lg-6 px-5">
         <img class="img-fluid rounded lift shadow" 
-            src="https://dummyimage.com/1280x16:9/cccccc/fff.png" 
-            alt="">
+            src="{{ site.data.eras.early.img.md }}" 
+            alt="{{ site.data.eras.early.img.alt }}">
     </div>
     <div class="col-12 col-lg-6 px-4 px-lg-5 h-100">
         <h4 class="tracking-wide fs-sm text-uppercase text-primary">Prayers</h4>
-        <h3>{{ items[0].era_display_name }}</h3>
+        <h3>{{ site.data.eras.early.name }}</h3>
         <ul class="list-group list-group-flush mt-4">
             {% for item in items -%}
             <li class="list-group-item mb-3 pb-2 ps-0 fs-6">

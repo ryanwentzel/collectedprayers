@@ -11,7 +11,7 @@
   </header>
 
   <!-- main -->
-    <main class="mb-6 min-vh-75">
+    <main class="min-vh-75">
         <section id="featured" class="my-6">
             <div class="container">
                 {% include home/sections/featured/reformation-era-prayer.html %}
@@ -27,7 +27,9 @@
                 {% include home/sections/recent/recent-prayers.html %}
             </section>
         </div>
-
+        <section id="about" class="mt-6">
+            {% include home/sections/hero-about.html %}
+        </section>
     </main>
     <!-- footer -->
     {% include components/footer.html %}

@@ -1,11 +1,11 @@
-{%- assign items = site.prayers | where: "era", "reformation" -%}
+{%- assign items = site.prayers | where: "era", site.data.eras.reformation.id -%}
 {%- assign item = items | reverse | find: "featured", true -%}
 {%- unless item == nil %}
 <div class="d-flex flex-wrap justify-content-center align-items-center position-relative overflow-hidden">
     <div class="d-flex flex-column col-12 col-lg-7">
         <img class="img-fluid rounded" 
-        src="https://dummyimage.com/1280x16:9/cccccc/fff.png" 
-        alt="">
+        src="{{ item.img.md }}" 
+        alt="{{ item.img.alt }}">
     </div>
     <div class="d-flex flex-column col ms-lg-5 flex-grow-1">
         <div class="py-4 mx-auto text-center">

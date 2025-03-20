@@ -34,13 +34,11 @@ defaults:
       type: prayers
     values:
       era: early
-      era_display_name: Early Church
   - scope:
       path: "_prayers/reformation-church"
       type: prayers
     values:
       era: reformation
-      era_display_name: Reformation Era
 
 # Build settings
 plugins:
