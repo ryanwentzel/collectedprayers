@@ -1,7 +1,7 @@
 ---
 date: $date
 title: $title
-lead:
+lead: 
 tags:
 source:
     id:
