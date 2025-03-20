@@ -1,10 +1,10 @@
-{%- assign items = site.prayers | where: "era", "ancient" | reverse | limit:3 -%}
+{%- assign items = site.prayers | where: "era", "early" | reverse | limit:3 -%}
 {%- unless items.size == 0 -%}
 <div class="row gy-5 align-items-center">
     <div class="col-12 col-lg-6 px-5">
         <img class="img-fluid rounded lift shadow" 
             src="https://dummyimage.com/1280x16:9/cccccc/fff.png" 
-            alt="{{ collection.display_name }}">
+            alt="">
     </div>
     <div class="col-12 col-lg-6 px-4 px-lg-5 h-100">
         <h4 class="tracking-wide fs-sm text-uppercase text-primary">Collection</h4>

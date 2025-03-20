@@ -30,12 +30,12 @@ defaults:
     values:
       layout: prayer
   - scope:
-      path: "_prayers/ancient"
+      path: "_prayers/early-church"
       type: prayers
     values:
-      era: ancient
+      era: early
   - scope:
-      path: "_prayers/reformation"
+      path: "_prayers/reformation-church"
       type: prayers
     values:
       era: reformation
