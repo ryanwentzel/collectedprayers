@@ -1,0 +1,29 @@
+#!/bin/zsh
+# creates a new early church prayer
+
+set -e
+
+local PROJ_DIR=$(git rev-parse --show-toplevel)
+local TEMPLATE="${PROJ_DIR}/script/templates/prayers/prayer.md"
+local OUTPUT_DIR="${PROJ_DIR}/collections/_prayers/reformation-church/"
+local USAGE_MSG="Usage: ref.sh <title>"
+
+function create () {
+    local title="${1}"
+    local slug=$(slugify "$@")
+    local prefix=$(date +"%Y-%m-%d")
+    local filename="${OUTPUT_DIR}/${prefix}-${slug}.md"
+
+    echo "Creating $filename"
+    sed -e "s/\$date/$(date +'%Y-%m-%d %H:%M:%S %z')/" -e "s/\$title/$title/" ${TEMPLATE} > $filename
+    code $filename
+}
+
+if [[ -z "$1" ]]; then
+    echo "$USAGE_MSG"
+    exit 1
+fi
+
+source ${PROJ_DIR}/script/functions
+
+create $1
