@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include components/head.html %}
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        {% include components/nav.html %}
+        <!-- end of nav-->
+         {% if layout.masthead %}
+         {% include {{ layout.masthead }} %}
+         {% endif %}
+    </header>
+    <!-- end of header -->
+    <!-- main -->
+    {{ content }}
+    <!-- end of main -->
+    <!-- footer -->
+    {% include components/footer/about.html %}
+    <!-- end of footer -->
+     <!-- scripts -->
+    {% include scripts/core.html %}
+    {% if layout.scripts %}
+    {% include {{ layout.scripts }} %}
+    {% endif %}
+    <!-- end of scripts -->
+</body>
+</html>

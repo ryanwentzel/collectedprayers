@@ -1,35 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include components/head.html %}
-</head>
-<body>
-  <header>
-    <!-- navigation -->
-    {% include components/nav.html %}
-    <!-- header content -->
-  </header>
-
-  <!-- main -->
-    <main class="min-vh-75">
-        <section id="featured" class="my-6">
-            <div class="container">
-                {% include home/sections/featured/reformation-era-prayer.html %}
-            </div>
-        </section>
+---
+layout: default
+---
+<main id="start-of-content" class="min-vh-75">
+    <section id="featured" class="my-6">
         <div class="container">
-            <hr class="text-subtle mt-6 mb-5">
-            <section id="collections">
-                {% include home/sections/collections/early-era-prayers.html %}
-            </section>
-            <hr class="text-subtle mt-6 mb-5">
-            <section id="recent-prayers">
-                {% include home/sections/recent/recent-prayers.html %}
-            </section>
+            {% include home/sections/featured/reformation-era-prayer.html %}
         </div>
-    </main>
-    <!-- footer -->
-    {% include components/footer/about.html %}
-    {% include scripts.html %}
-</body>
-</html>
+    </section>
+    <div class="container">
+        <hr class="text-subtle mt-6 mb-5">
+        <section id="collections">
+            {% include home/sections/collections/early-era-prayers.html %}
+        </section>
+        <hr class="text-subtle mt-6 mb-5">
+        <section id="recent-prayers">
+            {% include home/sections/recent/recent-prayers.html %}
+        </section>
+    </div>
+</main>
