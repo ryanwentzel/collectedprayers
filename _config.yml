@@ -49,6 +49,7 @@ defaults:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-minifier
 
 # Exclude from processing.
 # The following items will not be processed, by default.
