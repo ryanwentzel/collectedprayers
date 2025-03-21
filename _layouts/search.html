@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    {% include components/head.html %}
+</head>
+<body class="h-100">
+  <header>
+    <!-- navigation -->
+    {% include components/nav.html %}
+    <!-- header content -->
+  </header>
+
+  <!-- main -->
+    <main class="d-flex h-100">
+        <div class="container mx-auto">
+            <div class="row align-items-center h-100 flex-column">
+                <div class="col-12 col-md-6 mt-8">
+                    <div id="search-container">
+                        <input class="w-100" type="text" id="search-input" placeholder="Type to begin searching...">
+                        <ul id="results-container" class="list-group list-group-flush mt-5"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    {% include components/footer.html %}
+    <script src="{% link js/search.min.js %}" type="text/javascript"></script>
+    <script>
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            searchResultTemplate: '<li class="list-group-item"><a href="{url}">{title}</a></li>',
+            noResultsText: ("No result found!"),
+            json: '{% link search.json %}'
+        })
+    </script>
+</body>
+</html>

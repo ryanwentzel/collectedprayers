@@ -1,0 +1,13 @@
+---
+---
+[
+    {%- for item in site.prayers %}
+    {
+        "title": "{{ item.title | escape }}",
+        "url": "{{ item.url | relative_url }}",
+        "era": "{{ item.era }}",
+        "tags": "{{ item.tags | join: ',' }}",
+        "date": "{{ item.date }}"
+    } {% unless forloop.last %},{% endunless -%}
+    {% endfor -%}
+]
