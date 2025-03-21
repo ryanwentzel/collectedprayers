@@ -5,7 +5,7 @@ lead: A prayer of adoration from the <em>Book of Common Worship</em> (1906)
 tags: adoration
 source:
     id: common-worship-1906
-    name: Book of Common Worship (1906)
+    modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sm.webp

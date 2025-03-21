@@ -12,12 +12,12 @@
         {% else %}
         <cite>{{ org.title }}</cite>
         {% endif %}
-        &nbsp;in&nbsp;
+        .&nbsp;
         {% endunless %}
         {% endif %}
         {% unless item.author == nil %}{{ item.author }},&nbsp;{% endunless %}<cite>{{ item.title }}</cite>
         {% unless item.pub == nil %}({{ item.pub.location }}: {{ item.pub.publisher }}, {{ item.pub.year }}).{% endunless %}
-        {% if page.source.revised %}<em>Revised by {{ site.data.author.name }}.</em>{% endif %}
+        {% if page.source.modified %}&nbsp;{{ page.source.modification | default: 'Modified.'}}{% endif %}
     </p>
 </div>
 {%- endunless %}

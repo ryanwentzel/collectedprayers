@@ -6,7 +6,7 @@ tags:
 source:
     id: fox_chain_1913
     original: gelasian
-    revised: true
+    modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/roesen-still-life-fruit-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/roesen-still-life-fruit-sm.webp

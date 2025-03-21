@@ -6,7 +6,7 @@ tags: ancient praise petition
 source:
     id: potts-early-1953
     original: syrian-clementine
-    revised: true
+    modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sm.webp
