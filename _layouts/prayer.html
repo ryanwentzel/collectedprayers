@@ -46,6 +46,9 @@
                     <div class="col-12 col-md-10 col-xl-7 font-serif mt-3 px-4">
                         <div class="prayer-content py-4">
                             {{ content }}
+                            {% if page.source %}
+                            {% include prayers/source.html %}
+                            {% endif %}
                         </div>
                     </div>
                 </div>

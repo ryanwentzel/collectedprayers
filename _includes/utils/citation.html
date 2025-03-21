@@ -1,0 +1,4 @@
+{%- assign item = site.data.sources[include.source] -%}
+{%- unless item == nil %}
+{{ item.author }}, <em>{{ item.title }}</em>
+{% endunless %}
