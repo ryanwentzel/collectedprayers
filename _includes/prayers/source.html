@@ -1,8 +1,8 @@
 {%- assign item = site.data.sources[page.source.id] -%}
 {%- unless item == nil %}
 <div class="mt-5">
-    <hr class="text-subtle w-25">
-    <p class="mt-4">
+    <div>***</div>
+    <p class="mt-3">
         <strong>Source:</strong>&nbsp;
         {%- if page.source.original -%}
         {%- assign org_source = site.data.sources[page.source.original] -%}

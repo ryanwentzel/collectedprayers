@@ -7,11 +7,11 @@ source:
     id: common-worship-1906
     modified: true
 img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-lg.webp
-    alt: Painting by Horace Pippin, 'Giving Thanks' (1942)
-    caption: Horace Pippin, *Giving Thanks*, 1942
+    sq: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-sq.webp
+    sm: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-sm.webp
+    md: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-md.webp
+    lg: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-lg.webp
+    alt: Painting by Joszef Kerekes
+    caption: Joszef Kerekes, <cite>A street in Budapest in the rain</cite>
 ---
 Eternal and ever-blessed God, we bow down before your divine majesty, adoring you, the Lord of heaven and earth, of whom and through whom and to whom are all things; to you be glory forever and ever. Amen.
