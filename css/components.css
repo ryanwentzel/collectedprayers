@@ -39,3 +39,12 @@
 .separator-primary {
     border-top: 2px solid var(--theme-color-primary);
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0.25; }
+    100% { opacity: 1; }
+}
+
+.img-fluid {
+    animation: fadeIn 0.5s;
+}
