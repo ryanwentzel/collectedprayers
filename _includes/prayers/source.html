@@ -4,20 +4,13 @@
     <hr class="text-subtle w-25">
     <p class="mt-4">
         <strong>Source:</strong>&nbsp;
-        {% if page.source.original %}
-        {% assign org = site.data.sources[page.source.original] %}
-        {% unless org == nil %}
-        {% if org.url %}
-        <cite><a href="{{ org.url }}">{{ org.title }}</a></cite>
-        {% else %}
-        <cite>{{ org.title }}</cite>
-        {% endif %}
-        .&nbsp;
-        {% endunless %}
-        {% endif %}
-        {% unless item.author == nil %}{{ item.author }},&nbsp;{% endunless %}<cite>{{ item.title }}</cite>
-        {% unless item.pub == nil %}({{ item.pub.location }}: {{ item.pub.publisher }}, {{ item.pub.year }}).{% endunless %}
-        {% if page.source.modified %}&nbsp;{{ page.source.modification | default: 'Modified.'}}{% endif %}
+        {%- if page.source.original -%}
+        {%- assign org_source = site.data.sources[page.source.original] -%}
+        {%- unless org_source == nil -%}
+        {{- org_source.citation }}.&nbsp;
+        {%- endunless -%}
+        {%- endif %}
+        {%- if page.source.modified %}Adapted from{% endif %}&nbsp;{{ item.citation }}.
     </p>
 </div>
 {%- endunless %}
