@@ -15,9 +15,7 @@
                     <p class="card-text fs-sm">{{ item.lead }}</p>
                     <div class="mt-auto">
                         <div class="mt-5 d-flex">
-                            {%- for tag in item.tags -%}
-                            <span class="badge text-bg-light border fw-normal me-2">{{ tag }}</span>
-                            {%- endfor -%}
+                            <span class="badge text-bg-primary fw-normal border-primary">{{ site.data.eras[item.era].name }}</span>
                             <a href="{{ item.url | relative_url }}" 
                             class="icon-link stretched-link"
                             title="Read prayer">
