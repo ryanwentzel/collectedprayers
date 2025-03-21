@@ -22,12 +22,9 @@
             </div>
             <div class="col-12 col-md-9 mt-4">
                 <figure>
-                    <img class="d-block mx-auto shadow rounded img-fluid lift"
-                    srcset="{{ page.img.sm }} 854w, {{ page.img.md }} 1280w, {{ page.img.lg }} 2560w"
-                    src="{{ page.img.sm }}"
-                    alt="{{ page.img.alt }}"
-                    loading="eager"
-                    fetchpriority="high">
+                    {% include components/img/responsive.html img=page.img 
+                        classes="d-block mx-auto shadow rounded lift" loading="eager" 
+                        fetch_priority="high" %}
                     {% if page.img.caption %}
                     <figcaption class="mt-2 text-end text-subtle fs-sm pe-2">{{ page.img.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
                     {% endif %}
