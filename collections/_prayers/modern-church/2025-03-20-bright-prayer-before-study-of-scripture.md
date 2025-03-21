@@ -2,7 +2,7 @@
 date: 2025-03-20 19:34:20 -0700
 title: Before the Study of Scripture
 lead: A 19th-century collect by William Bright
-tags:
+tags: petition
 source:
     id: bright-collects-1864
     modified: true

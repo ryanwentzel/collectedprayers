@@ -2,6 +2,7 @@
 date: 2025-03-20 09:58:00 -0700
 title: Help from on High
 lead: A Sunday morning prayer by Charles Spurgeon
+published: false
 tags: petition
 img:
     sq: https://dummyimage.com/1000x16:9/cccccc/fff.png

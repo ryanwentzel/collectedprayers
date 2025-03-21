@@ -2,7 +2,7 @@
 date: 2025-03-20 16:29:43 -0700
 title: Grace Before and After Meals
 lead: Brief mealtime prayers from the <em>Gelasian Sacramentary</em>
-tags:
+tags: petition thanksgiving
 source:
     id: fox_chain_1913
     original: gelasian

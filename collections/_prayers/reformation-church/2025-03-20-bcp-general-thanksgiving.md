@@ -3,7 +3,7 @@ date: 2025-03-20 13:51:00 -0700
 title: The General Thanksgiving
 lead: An extended prayer of gratitude from the 1662 Book of Common Prayer
 featured: true
-tags: thanksgiving bcp
+tags: thanksgiving
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sm.webp
