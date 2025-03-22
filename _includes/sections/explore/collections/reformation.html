@@ -1,2 +1,2 @@
 {%- assign items = site.prayers | where: "era", site.data.eras.reformation.id | reverse | limit:10 -%}
-{% include explore/collections/base.html items=items era=site.data.eras.reformation %}
+{% include sections/explore/collections/base.html items=items era=site.data.eras.reformation %}
