@@ -10,7 +10,7 @@
         src="{{ era.img.sq }}"
         alt="{{ era.img.alt }}"
         width="125"> -->
-        <p class="fs-xs lead">{{ era.description }}</p>
+        <p class="fs-sm lead">{{ era.description }}</p>
     </div>
     <div class="col-12 col-lg-7 pb-5 px-4">
         <ul class="list-group list-group-flush">
@@ -20,7 +20,7 @@
                     <div class="me-auto text-subtle text-uppercase fs-xs">
                         <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d" }}</time>
                     </div>
-                    <h4 class="fs-sm">{{ item.title }}</h4>
+                    <h4 class="h6">{{ item.title }}</h4>
                     <p class="text-muted fs-xs">{{ item.lead }}</p>
                 </a>
             </li>
