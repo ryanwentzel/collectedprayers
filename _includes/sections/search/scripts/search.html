@@ -3,7 +3,7 @@
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        searchResultTemplate: '{%- include search/results-template.html -%}',
+        searchResultTemplate: '{%- include sections/search/results-template.html -%}',
         noResultsText: ("No result found!"),
         json: '{% link search.json %}'
     })
