@@ -1,13 +1,11 @@
 <div class="container mx-auto pt-6">
     <div class="row justify-content-center">
         <div class="col-12 col-md-9">
-            <div>
-                <div class="d-block mb-2 text-primary fs-xs fw-bold text-uppercase mb-2 tracking-widest">
-                    {{ site.data.eras[page.era].name }} ({{ site.data.eras[page.era].years }})</div>
-                <h1 class="fs-jumbo-2 tracking-tight lh-1 mb-2">{{ page.title }}</h1>
-                <div class="d-flex">
-                    <h2 class="col-12 col-lg-10 fs-5 lead text-subtle tracking-tight">{{ page.lead }}</h2>
-                </div>
+            <div class="text-primary fs-xs fw-bold text-uppercase mb-4 tracking-widest">
+                {{ site.data.eras[page.era].name }} ({{ site.data.eras[page.era].years }})</div>
+            <h1 class="fs-jumbo-2 tracking-tight lh-1 mb-2">{{ page.title }}</h1>
+            <div class="d-flex">
+                <h2 class="col-12 col-lg-10 fs-5 lead text-subtle tracking-tight">{{ page.lead }}</h2>
             </div>
         </div>
         <div class="col-12 col-md-9 mt-4">
