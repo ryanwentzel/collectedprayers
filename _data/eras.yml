@@ -8,6 +8,10 @@ early:
     md: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-md.webp
     lg: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-lg.webp
     alt: "Mural from Catacomb of San Gennaro"
+  description: >-
+    Early Christianity, otherwise called the Early Church or Paleo-Christianity, 
+    describes the historical era of the Christian religion 
+    up to the First Council of Nicaea in 325.
 
 medieval:
   id: medieval
@@ -25,11 +29,16 @@ reformation:
   name: Reformation Church
   years: 1500–1700
   img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-lg.webp
-    alt: "Reformation Wall in Geneva"
+    sq: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-sq.webp
+    sm: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-sm.webp
+    md: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-md.webp
+    lg: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-lg.webp
+    alt: "Marburg Colloquy"
+  description: >-
+    The Reformation, also known as the Protestant Reformation 
+    and the European Reformation, was a major theological movement 
+    in Western Christianity in 16th-century Europe that posed a religious 
+    and political challenge to the papacy and the authority of the Catholic Church.
 
 modern:
   id: modern

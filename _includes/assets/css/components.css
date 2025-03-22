@@ -44,11 +44,6 @@
     animation: fade-in 1s;
 }
 
-/* Resource Groups */
-.resource-item-lead {
-    font-size: 0.875rem;
-}
-
 @media (min-width: 992px) {
     .resource-group .resource-item:last-of-type {
         --bs-border-width: 0;

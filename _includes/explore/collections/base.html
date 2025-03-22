@@ -1,0 +1,35 @@
+{%- assign items = include.items -%}
+{%- unless items.size == 0 -%}
+{%- assign era = include.era -%}
+<div class="row align-items-start border rounded shadow-sm">
+    <div class="col-12 pt-3 ps-3 mb-4">
+        <h3 class="h5 text-primary border-bottom pb-2">{{ era.name }}</h3>
+    </div>
+    <div class="col-12 col-lg-5 ps-3">
+<!--         <img class="img-fluid rounded-circle d-block mx-auto shadow-sm" 
+        src="{{ era.img.sq }}"
+        alt="{{ era.img.alt }}"
+        width="125"> -->
+        <p class="fs-xs lead">{{ era.description }}</p>
+    </div>
+    <div class="col-12 col-lg-7 pb-5 px-4">
+        <ul class="list-group list-group-flush">
+            {% for item in items -%}
+            <li class="list-group-item mb-3 pt-0 pb-1 ps-0 bg-transparent">
+                <a class="text-decoration-none" href="{{ item.url | relative_url }}">
+                    <div class="me-auto text-subtle text-uppercase fs-xs">
+                        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d" }}</time>
+                    </div>
+                    <h4 class="fs-sm">{{ item.title }}</h4>
+                    <p class="text-muted fs-xs">{{ item.lead }}</p>
+                </a>
+            </li>
+            {% endfor -%}
+        </ul>
+        <a href="#" class="fs-xs icon-link">
+            View all
+            <i class="bi bi-arrow-right-circle"></i>
+        </a>
+    </div>
+</div>
+{% endunless %}
