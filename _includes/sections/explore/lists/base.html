@@ -1,6 +1,12 @@
 <div class="resource-group">
     <div class="d-flex justify-content-between border-bottom mb-4">
         <h2 class="fs-sm text-primary text-uppercase tracking-tight">{{ include.label }}</h2>
+        <div class="d-none d-lg-block">
+            <a class="fs-sm icon-link align-text-center" href="#">
+                View all
+                <i class="bi bi-chevron-right"></i>
+            </a>
+        </div>
     </div>
     {% for item in items limit:include.limit | default:5 %}
     <div class="row resource-item border-bottom align-items-center mb-5 pb-5">
