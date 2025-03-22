@@ -4,8 +4,8 @@ title: Sea of Ineffable Love
 lead: A third-century prayer from the Syrian Clementine Liturgy
 tags: praise petition
 source:
-    id: potts-early-1953
-    original: syrian-clementine
+    id: potts_early_1953
+    original: syrian_clementine
     modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sq.webp

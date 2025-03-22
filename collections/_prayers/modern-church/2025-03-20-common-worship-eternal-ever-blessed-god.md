@@ -4,7 +4,7 @@ title: Eternal and Ever-Blessed God
 lead: A prayer of adoration from the <em>Book of Common Worship</em> (1906)
 tags: adoration
 source:
-    id: common-worship-1906
+    id: common_worship_1906
     modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-sq.webp

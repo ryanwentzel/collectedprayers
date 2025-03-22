@@ -4,7 +4,7 @@ title: Before the Study of Scripture
 lead: A 19th-century collect by William Bright
 tags: petition
 source:
-    id: bright-collects-1864
+    id: bright_collects_1864
     modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-sq.webp
