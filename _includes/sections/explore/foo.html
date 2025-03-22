@@ -7,9 +7,9 @@
         <div class="col-12 col-lg-6">
             <div class="d-flex flex-column border-bottom mb-3 resource-item">
                 <a class="d-block col-12 mb-4">
-                    <img class="img-fluid rounded"
-                        src="{{ item.img.sq }}" 
-                        alt="{{ item.img.alt }}">
+                    {% include components/img/responsive.html img=item.img 
+                        classes="rounded" loading="eager" 
+                        fetch_priority="high" %}
                 </a>
                 <div class="col-12 pb-3">
                     <span class="fs-xxs text-uppercase text-primary">{{ site.data.eras[item.era].name }}</span>
