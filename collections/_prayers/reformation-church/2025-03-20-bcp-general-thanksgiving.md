@@ -4,6 +4,9 @@ title: The General Thanksgiving
 lead: An extended prayer of gratitude from the 1662 Book of Common Prayer
 featured: true
 tags: thanksgiving
+source:
+    id: bcp_1762
+    modified: true
 img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sm.webp
@@ -36,5 +39,3 @@ in holiness and righteousness all our days;
 Through Jesus Christ our Lord,  
 to whom, with you and the Holy Spirit,  
 be all honor and glory, world without end. Amen.
-
-Revised from The Church of England, *The Book of Common Prayer...According to the Use of the Church of England* (Cambridge, 1762).
