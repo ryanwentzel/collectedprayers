@@ -43,3 +43,9 @@
 .img-fluid {
     animation: fade-in 1s;
 }
+
+@media (min-width: 992px) {
+    .resource-group .resource-item:last-of-type {
+        --bs-border-width: 0;
+    }
+}
