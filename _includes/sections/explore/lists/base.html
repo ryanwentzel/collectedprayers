@@ -1,4 +1,7 @@
 <div class="resource-group">
+    <div class="d-flex justify-content-between border-bottom mb-4">
+        <h2 class="fs-sm text-primary text-uppercase tracking-tight">{{ include.label }}</h2>
+    </div>
     {% for item in items limit:include.limit | default:5 %}
     <div class="row resource-item border-bottom align-items-center mb-5 pb-5">
         <div class="col-12 col-md-4">
@@ -13,7 +16,7 @@
             </a>
         </div>
         <div class="col-12 col-md-8">
-            <h4 class="fs-xs text-primary text-uppercase">{{ site.data.eras[item.era].name }}</h4>
+            <h4 class="fs-xs text-subtle text-uppercase">{{ item.date | date: "%b %d, %Y" }}</h4>
             <h3 class="h4 tracking-tight"><a class="text-reset text-decoration-none" href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
             <p class="text-subtle fs-6 fw-light">{{ item.lead }}</p>
         </div>
