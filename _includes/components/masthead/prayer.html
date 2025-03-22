@@ -1,14 +1,17 @@
-<div class="container mx-auto pt-6">
+<div class="container mx-auto pt-5">
     <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-            <div class="text-primary fs-xs fw-bold text-uppercase mb-4 tracking-widest">
-                {{ site.data.eras[page.era].name }} ({{ site.data.eras[page.era].years }})</div>
-            <h1 class="fs-jumbo-2 tracking-tight lh-1 mb-2">{{ page.title }}</h1>
+        <div class="col-12 col-lg-8">
+            <div class="text-primary fs-xs fw-bold text-uppercase mb-5 tracking-widest">
+                {{ site.data.eras[page.era].name }} ({{ site.data.eras[page.era].years }})
+            </div>
+        </div>
+        <div class="col-12 col-lg-8">
+            <h1 class="fs-jumbo-2 fw-bold tracking-tight lh-1 mb-2">{{ page.title }}</h1>
             <div class="d-flex">
                 <h2 class="col-12 col-lg-10 fs-5 lead text-subtle tracking-tight">{{ page.lead }}</h2>
             </div>
         </div>
-        <div class="col-12 col-md-9 mt-4">
+        <div class="col-12 col-lg-8 mt-4">
             <figure>
                 {% include components/img/responsive.html img=page.img 
                     classes="d-block mx-auto shadow rounded lift" loading="eager" 
