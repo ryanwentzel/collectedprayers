@@ -2,12 +2,11 @@
 layout: default
 ---
 <main id="start-of-content" class="min-vh-100">
-    <div class="container mx-auto my-5">
-        <div class="d-flex justify-content-center align-items-center">
-            <h1 class="display-3">{{ page.title }}</h1>
-        </div>
-    </div>
-    <section id="latest">
+    <section id="explore">
+        {% include explore/heroes/explore.html %}
+    </section>
+
+    <section id="latest" class="mt-6">
         <div class="container-xl mx-auto">
             {% include explore/latest.html %}
         </div>
