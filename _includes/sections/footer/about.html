@@ -1,6 +1,6 @@
 <footer class="container-fluid mt-8 px-3 pb-6 bg-theme-white border-top">
     <div class="row mt-6 gy-3 align-items-center px-lg-5">
-      <div class="col-3 col-lg-6 order-lg-last align-self-start">
+      <div class="col-3 col-lg-6 order-lg-last">
         <img class="d-lg-none d-block img-fluid"
           src="{% link img/brand-icon.svg %}"
           width="100"
@@ -13,11 +13,10 @@
           fetchpriority="low">
       </div>
       <div class="col">
-          <h3 class="fs-5 text-primary text-uppercase tracking-widest">{{ site.data.branding.name }}</h3>
-          <h2 class="tracking-tight text-dark">
+          <div class="fs-5 text-primary text-uppercase tracking-widest">{{ site.data.branding.name }}</div>
+          <div class="h2 tracking-tight text-dark">
               {{ site.data.branding.lead }}
-          </h2>
-          <p><span class="fw-light">{{ site.data.branding.lead_secondary }}</span></p>                    
+          </div>                    
       </div>
   </div>
 </footer>
