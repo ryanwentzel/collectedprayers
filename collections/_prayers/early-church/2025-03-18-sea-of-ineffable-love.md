@@ -8,7 +8,7 @@ source:
     original: syrian_clementine
     modified: true
 img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sq.webp
+    sq: https://dummyimage.com/1000x1:1/cccccc/fff.png
     sm: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sm.webp
     md: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-md.webp
     lg: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-lg.webp

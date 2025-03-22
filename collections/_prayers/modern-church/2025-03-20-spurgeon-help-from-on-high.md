@@ -5,7 +5,7 @@ lead: A Sunday morning prayer by Charles Spurgeon
 published: true
 tags: petition
 img:
-    sq: https://dummyimage.com/1000x16:9/cccccc/fff.png
+    sq: https://dummyimage.com/1000x1:1/cccccc/fff.png
     sm: https://dummyimage.com/854x16:9/cccccc/fff.png
     md: https://dummyimage.com/1280x16:9/cccccc/fff.png
     lg: https://dummyimage.com/2560x16:9/cccccc/fff.png

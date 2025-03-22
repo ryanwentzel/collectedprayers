@@ -1,0 +1,22 @@
+<div class="resource-group">
+    {% for item in items limit:include.limit | default:5 %}
+    <div class="row resource-item border-bottom align-items-center mb-5 pb-5">
+        <div class="col-12 col-md-4">
+            <a href="{{ item.url | relative_url }}">
+                <img class="d-none d-md-block img-fluid rounded"
+                src="{{ item.img.sq }}"
+                alt="{{ item.img.alt }}"
+                width="200">
+                <img class="d-block d-md-none img-fluid rounded mb-3"
+                src="{{ item.img.md }}"
+                alt="{{ item.img.alt }}">
+            </a>
+        </div>
+        <div class="col-12 col-md-8">
+            <h4 class="fs-xs text-primary text-uppercase">{{ site.data.eras[item.era].name }}</h4>
+            <h3 class="h4 tracking-tight"><a class="text-reset text-decoration-none" href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+            <p class="text-subtle fs-6 fw-light">{{ item.lead }}</p>
+        </div>
+    </div>
+{% endfor %}
+</div>

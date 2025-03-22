@@ -1,0 +1,4 @@
+{% assign items = site.prayers | where: "era", site.data.eras.modern.id %}
+{% unless items.size == 0 %}
+{% include sections/explore/lists/base.html items=items %}
+{% endunless %}
