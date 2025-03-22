@@ -6,6 +6,11 @@
         "title": "{{ item.title | escape }}",
         "url": "{{ item.url | relative_url }}",
         "lead": "{{ item.lead | strip_html }}",
+        {%- if item.source %}
+        {%- unless site.data.sources[item.source.id] == nil %}
+        "source": "{{ site.data.sources[item.source.id].citation | strip_html }}",
+        {%- endunless %}
+        {%- endif %}
         "era": "{{ item.era }}",
         "tags": "{{ item.tags | join: ',' }}",
         "date": "{{ item.date }}",
