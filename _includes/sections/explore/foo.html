@@ -12,7 +12,7 @@
                         fetch_priority="high" %}
                 </a>
                 <div class="col-12 pb-3">
-                    <span class="fs-xxs text-uppercase text-primary">{{ site.data.eras[item.era].name }}</span>
+                    <span class="fs-xxs fw-bold text-uppercase text-primary">{{ site.data.eras[item.era].name }}</span>
                     <h3 class="tracking-tight mb-1">
                         <a class="text-decoration-none" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     </h3>
@@ -31,7 +31,7 @@
             {% for item in items offset:1 limit:4 %}
             <div class="d-flex flex-column border-bottom resource-item mb-3">
                 <div class="col-12 pb-3">
-                    <span class="fs-xxs text-uppercase text-primary">{{ site.data.eras[item.era].name }}</span>
+                    <span class="fs-xxs fw-bold text-uppercase text-primary">{{ site.data.eras[item.era].name }}</span>
                     <h3 class="h4 tracking-tight mb-1">
                         <a class="text-decoration-none" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     </h3>
