@@ -49,3 +49,7 @@
         --bs-border-width: 0;
     }
 }
+
+.search-result-list-item a {
+    text-decoration: none;
+}
