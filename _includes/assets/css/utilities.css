@@ -82,6 +82,10 @@
     background-color: var(--theme-color-primary);
 }
 
+.bg-theme-primary-darker {
+    background-image: linear-gradient(to top, #2f4540, #334b46, #38524c, #3c5852, #415f58);
+}
+
 .bg-theme-secondary {
     background-color: var(--theme-color-secondary);
 }

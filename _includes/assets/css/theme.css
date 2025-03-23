@@ -1,6 +1,8 @@
 :root {
     --theme-color-primary: #52796f;
     --theme-color-primary-rgb: 82, 121, 111;
+    --theme-color-primary-darker: #2F4540;
+    --theme-color-primary-darker-rgb: 47, 69, 64;
     --theme-color-primary-linear-gradient: linear-gradient(to right bottom, #415f58, #44645c, #476860, #4b6d65, #4e7269, #54796f, #5a7f76, #60867c, #6a9086, #759a91, #7fa59b, #8aafa6);
     --theme-color-secondary: #5f738c;
     --theme-color-secondary-rgb: 95, 115, 140;
@@ -16,6 +18,7 @@
     --theme-color-neutral-dark: #525e75;
     --theme-color-neutral-muted: #7a6c86;
     --theme-color-neutral-muted-rgb: 122, 108, 134;
+    --theme-color-bright-blue: #00A3FF;
     --theme-color-black: #3A3A3A;
     --theme-color-white: #ffffff;
 
@@ -35,11 +38,15 @@
   
     --bs-link-color: var(--theme-color-primary);
     --bs-link-color-rgb: var(--theme-color-primary-rgb);
-    --bs-link-hover-color: var(--theme-color-secondary);
-    --bs-link-hover-color-rgb: var(--theme-color-secondary-rgb);
 
-    --bs-nav-link-hover-color: var(--theme-color-secondary);
     --bs-nav-link-font-size: 0.875rem;
+
+    --bs-link-hover-color: var(--theme-color-neutral-muted);
+    --bs-link-hover-color-rgb: var(--theme-color-neutral-muted-rgb);
+}
+
+a {
+    text-underline-offset: 0.25rem;
 }
 
 p + h2,
@@ -63,6 +70,25 @@ blockquote {
 
 h2 {
     margin-bottom: 1rem;
+}
+
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
+    color: var(--theme-color-black);
+    text-decoration: none;
+}
+
+h1 > a:hover,
+h2 > a:hover,
+h3 > a:hover,
+h4 > a:hover,
+h5 > a:hover,
+h6 > a:hover {
+    color: var(--theme-color-neutral-muted);
 }
 
 @media (min-width: 576px) {

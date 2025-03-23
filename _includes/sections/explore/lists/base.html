@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-between border-bottom mb-4">
         <h2 class="fs-sm text-primary text-uppercase tracking-tight">{{ include.label }}</h2>
         <div class="d-none d-lg-block">
-            <a class="fs-sm icon-link align-text-center" href="#">
+            <a class="fs-sm align-text-center" href="#">
                 View all
                 <i class="bi bi-chevron-right"></i>
             </a>
@@ -23,7 +23,7 @@
         </div>
         <div class="col-12 col-md-8">
             <h4 class="fs-xs text-subtle text-uppercase">{{ item.date | date: "%b %d, %Y" }}</h4>
-            <h3 class="h4 tracking-tight"><a class="text-reset text-decoration-none" href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+            <h3 class="h4 tracking-tight"><a class="text-decoration-none" href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
             <p class="text-subtle fs-6 fw-light">{{ item.lead }}</p>
         </div>
     </div>

@@ -7,10 +7,12 @@
     </div>
     <div class="d-flex flex-column col ms-lg-5 flex-grow-1">
         <div class="py-4 mx-auto text-center">
-            <a class="d-block stretched-link w-100 text-reset text-decoration-none" 
-            href="{{ item.url | relative_url}}">
-                <h2 class="fs-jumbo-2 lh-1 mb-2">{{ item.title }}</h2>
-            </a>
+            <h2 class="fs-jumbo-2 lh-1 mb-2">
+                <a class="d-block stretched-link w-100" 
+                href="{{ item.url | relative_url}}">
+                {{ item.title }}  
+                </a>
+            </h2>
             <span class="text-subtle fs-5 lead">{{ item.lead }}</span>
         </div>
     </div>
