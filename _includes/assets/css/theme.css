@@ -1,6 +1,7 @@
 :root {
     --theme-color-primary: #52796f;
     --theme-color-primary-rgb: 82, 121, 111;
+    --theme-color-primary-linear-gradient: linear-gradient(to right bottom, #415f58, #44645c, #476860, #4b6d65, #4e7269, #54796f, #5a7f76, #60867c, #6a9086, #759a91, #7fa59b, #8aafa6);
     --theme-color-secondary: #5f738c;
     --theme-color-secondary-rgb: 95, 115, 140;
     --theme-color-secondary-lighter: #c7cfb7;
