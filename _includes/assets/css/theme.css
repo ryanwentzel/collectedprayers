@@ -8,16 +8,29 @@
      *
      */
     --theme-color-primary: #52796f;
+    --theme-color-primary-dark: #3B5750;
     --theme-color-primary-rgb: 82, 121, 111;
+    --theme-color-primary-dark-rgb: 59, 87, 80;
+
     --theme-color-secondary: #A4C3B2;
     --theme-color-secondary-rgb: 164, 195, 178;
+
     --theme-color-subtle: #808080;
+
     --theme-color-accent: #FC9313;
+    --theme-color-accent-dark: #BE6A03;
+    --theme-color-accent-light: #FCB256;
     --theme-color-accent-rgb: 252, 147, 19;
-    --theme-color-neutral: #F4F4F4;
+    --theme-color-accent-dark-rgb: 190, 106, 3;
+    --theme-color-accent-light-rgb: 252, 178, 86;
+
+    --theme-color-neutral-light: #F4F4F4;
+    --theme-color-neutral-dark: #E9E7DD;
+
     --theme-color-black: #000000;
     --theme-color-black-muted: #3A3A3A;
     --theme-color-white: #ffffff;
+    --theme-color-white-soft: #fffffa;
 
     --theme-font-sans-serif: "Inter", sans-serif;
     --theme-font-serif: "Source Serif 4";
@@ -38,8 +51,8 @@
 
     --bs-nav-link-font-size: 0.875rem;
 
-    --bs-link-hover-color: var(--theme-color-neutral-muted);
-    --bs-link-hover-color-rgb: var(--theme-color-neutral-muted-rgb);
+    --bs-link-hover-color: var(--theme-color-secondary);
+    --bs-link-hover-color-rgb: var(--theme-color-secondary-rgb);
 }
 
 a {
@@ -85,7 +98,7 @@ h3 > a:hover,
 h4 > a:hover,
 h5 > a:hover,
 h6 > a:hover {
-    color: var(--theme-color-neutral-muted);
+    color: var(--theme-color-secondary);
 }
 
 @media (min-width: 576px) {

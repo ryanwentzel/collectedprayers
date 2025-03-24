@@ -33,7 +33,7 @@
 
 .navbar-nav {
     --bs-nav-link-color: var(--theme-color-primary);
-    --bs-nav-link-hover-color: var(--theme-color-primary-darker);
+    --bs-nav-link-hover-color: var(--theme-color-secondary);
 }
 
 .separator-primary {

@@ -82,8 +82,8 @@
     background-color: var(--theme-color-primary);
 }
 
-.bg-theme-primary-darker {
-    background-image: linear-gradient(to top, #2f4540, #334b46, #38524c, #3c5852, #415f58);
+.bg-theme-primary-dark {
+    background-color: var(--theme-color-primary-dark);
 }
 
 .bg-theme-secondary {
@@ -95,23 +95,15 @@
 }
 
 .bg-theme-light {
-    background-color: var(--theme-color-neutral);
+    background-color: var(--theme-color-neutral-light);
 }
 
-.bg-theme-muted {
-    background-color: var(--theme-color-neutral-muted);
-}
-
-.bg-theme-warm {
-    background-color: var(--theme-color-neutral-warm);
+.bg-theme-soft {
+    background-color: var(--theme-color-white-soft);
 }
 
 .bg-theme-white {
     background-color: var(--theme-color-white);
-}
-
-.bg-theme-gradient-primary {
-    background-image: var(--theme-color-primary-linear-gradient);
 }
 
 /* animations */
@@ -280,22 +272,6 @@
 
 .overlay-accent {
     background: rgba(var(--theme-color-accent-rgb), 0.75);
-}
-
-.overlay-muted {
-    background: rgba(var(--theme-color-neutral-muted-rgb), 0.75);
-}
-
-.box {
-    position: relative;
-    width: 50%;
-    float: left;
-  }
-  
-.box:after {
-    content: "";
-    display: block;
-    padding-top: 100%;
 }
 
 .square {
