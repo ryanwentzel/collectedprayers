@@ -8,10 +8,10 @@ source:
     id: bcp_1762
     modified: true
 img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/pippin-giving-thanks-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/pippin-giving-thanks-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/pippin-giving-thanks-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/pippin-giving-thanks-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/pippin-giving-thanks-lg.webp
     alt: Painting by Horace Pippin, 'Giving Thanks' (1942)
     caption: Horace Pippin, *Giving Thanks*, 1942
 ---

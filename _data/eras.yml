@@ -3,10 +3,10 @@ early:
   name: Early Church
   years: 100–800
   img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-lg.webp
     alt: "Mural from Catacomb of San Gennaro"
   description: >-
     Early Christianity, otherwise called the Early Church or Paleo-Christianity, 
@@ -18,10 +18,10 @@ medieval:
   name: Medieval Church
   years: 800–1500
   img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/catacomb-san-gennaro-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-lg.webp
     alt: "Mural from Catacomb of San Gennaro"
 
 reformation:
@@ -29,10 +29,10 @@ reformation:
   name: Reformation Church
   years: 1500–1700
   img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/noack-marburg-colloquy-1867-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/noack-marburg-colloquy-1867-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/noack-marburg-colloquy-1867-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/noack-marburg-colloquy-1867-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/noack-marburg-colloquy-1867-lg.webp
     alt: "Marburg Colloquy"
   description: >-
     The Reformation, also known as the Protestant Reformation 
@@ -45,10 +45,10 @@ modern:
   name: Modern Church
   years: 1700–1945
   img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-lg.webp
     alt: "Reformation Wall in Geneva"
 
 contemporary:
@@ -56,8 +56,8 @@ contemporary:
   name: Contemporary Church
   years: 1945–Present
   img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/reformation-wall-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/reformation-wall-lg.webp
     alt: "Reformation Wall in Geneva"

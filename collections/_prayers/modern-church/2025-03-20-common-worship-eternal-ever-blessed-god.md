@@ -7,10 +7,10 @@ source:
     id: common_worship_1906
     modified: true
 img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/kerekes-budapest-street-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/kerekes-budapest-street-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/kerekes-budapest-street-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/kerekes-budapest-street-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/kerekes-budapest-street-lg.webp
     alt: Painting by Joszef Kerekes
     caption: Joszef Kerekes, <cite>A street in Budapest in the rain</cite>
 ---

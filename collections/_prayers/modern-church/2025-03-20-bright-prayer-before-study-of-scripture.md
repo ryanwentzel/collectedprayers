@@ -7,10 +7,10 @@ source:
     id: bright_collects_1864
     modified: true
 img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/brekenlenkam-old-woman-reading-bible-1663-lg.webp
     alt: Painting by Quirijn Van Brekelenkam
     caption: Quirijn Van Brekelenkam, <cite>Old Woman Reading the Bible</cite>, 1863
 ---

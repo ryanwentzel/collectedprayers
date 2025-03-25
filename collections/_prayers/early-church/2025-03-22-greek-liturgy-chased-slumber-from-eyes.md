@@ -7,10 +7,10 @@ source:
     id: fox_chain_1913
     modified: true
 img:
-    sq: https://cdn.ryanlwentzel.com/assets/img/content/homer-landscape-with-deer-1892-sq.webp
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/homer-landscape-with-deer-1892-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/homer-landscape-with-deer-1892-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/homer-landscape-with-deer-1892-lg.webp
+    sq: https://cdn.collectedprayers.com/assets/img/content/homer-landscape-with-deer-1892-sq.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/homer-landscape-with-deer-1892-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/homer-landscape-with-deer-1892-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/homer-landscape-with-deer-1892-lg.webp
     alt: Painting by Winslow Homer
     caption: Winslow Homer, <cite>Landscape with Deer in a Morning Haze</cite>, 1892
 ---

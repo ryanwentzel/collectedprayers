@@ -9,9 +9,9 @@ source:
     modified: true
 img:
     sq: https://dummyimage.com/1000x1:1/cccccc/fff.png
-    sm: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-sm.webp
-    md: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-md.webp
-    lg: https://cdn.ryanlwentzel.com/assets/img/content/von-littrow-coastal-landscape-lg.webp
+    sm: https://cdn.collectedprayers.com/assets/img/content/von-littrow-coastal-landscape-sm.webp
+    md: https://cdn.collectedprayers.com/assets/img/content/von-littrow-coastal-landscape-md.webp
+    lg: https://cdn.collectedprayers.com/assets/img/content/von-littrow-coastal-landscape-lg.webp
     alt: Painting by Leontine von Littrow, 'Coastal Landscape'
     caption: Leontine von Littrow, *Coastal Landscape*
 ---
