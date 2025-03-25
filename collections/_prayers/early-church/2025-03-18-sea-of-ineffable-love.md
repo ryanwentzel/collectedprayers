@@ -16,4 +16,4 @@ img:
     caption: Leontine von Littrow, *Coastal Landscape*
 ---
 
-> O God, you who are the unsearchable abyss of peace, the ineffable sea of love, the fountain of blessings, and the bestower of affection, you who send peace to those who receive it, open to us this day the sea of your love, and water us with the abundant streams of the riches of your grace. Make us to be children of quietness and heirs of peace. Kindle in us the fire of your love; sow in us your fear; strengthen our weakness by your power; and bind us closely to you and each other in one firm bond of unity, for the sake of Jesus Christ. Amen.
+O God, you who are the unsearchable abyss of peace, the ineffable sea of love, the fountain of blessings, and the bestower of affection, you who send peace to those who receive it, open to us this day the sea of your love, and water us with the abundant streams of the riches of your grace. Make us to be children of quietness and heirs of peace. Kindle in us the fire of your love; sow in us your fear; strengthen our weakness by your power; and bind us closely to you and each other in one firm bond of unity, for the sake of Jesus Christ. Amen.
