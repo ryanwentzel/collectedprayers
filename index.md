@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Collected Prayers
-lead: ""
+lead: "A rich collection of Christian prayers from the early Church through today."
 img:
     sq: https://cdn.collectedprayers.com/assets/img/content/jarred-kyle-spfzDuwHlgA-unsplash-sq.webp
     sm: https://cdn.collectedprayers.com/assets/img/content/jarred-kyle-spfzDuwHlgA-unsplash-sm.webp
