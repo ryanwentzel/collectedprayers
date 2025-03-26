@@ -12,6 +12,8 @@
         <!-- end of nav-->
          {% if layout.masthead %}
          {% include {{ layout.masthead }} %}
+         {% elsif page.masthead %}
+         {% include {{ page.masthead }} %}
          {% endif %}
     </header>
     <!-- end of header -->

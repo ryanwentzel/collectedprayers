@@ -35,6 +35,7 @@ defaults:
       type: prayers
     values:
       era: early
+      category: early-church
   - scope:
       path: "_prayers/reformation-church"
       type: prayers

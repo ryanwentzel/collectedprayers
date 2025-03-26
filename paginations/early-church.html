@@ -1,0 +1,51 @@
+---
+layout: default
+permalink: /eras/early-church
+masthead: sections/prayers/masthead/archive.html
+title: Prayers from the Early Church
+era: early
+pagination:
+    enabled: true
+    collection: prayers
+    category: early-church
+    trail:
+      before: 1
+      after: 3
+    per_page: 30
+---
+
+<main id="archive" class="min-vh-100">
+    <div class="container mx-auto">
+        {% unless  paginator.posts == nil or paginator.size == 0 %}
+        <div class="row row-cols-1 row-cols-lg-4 justify-content-center gy-5">
+            {% for item in paginator.posts %}
+            <div class="col d-flex align-items-stretch position-relative">
+                <div class="card bg-transparent lift">
+                    {% include components/img/responsive.html img=item.img classes="card-img-top" %}
+                    <div class="card-body d-flex flex-column h-100">
+                        <span class="fs-xs text-subtle text-uppercase">{{ item.data | date: "%b %d" }}</span>
+                        <h5 class="card-title">
+                            <a href="{{ item.url | relative_url }}" 
+                            class="stretched-link"
+                            title="Read prayer">
+                            {{ item.title }}
+                            </a>
+                        </h5>
+                        <p class="card-text fs-sm">{{ item.lead }}</p>
+                        <div class="mt-auto">
+                            <div class="mt-5 d-flex">
+                                <span class="badge text-bg-secondary fw-normal border-secondary">{{ site.data.eras[item.era].name }}</span>
+                                <a href="{{ item.url | relative_url }}" 
+                                class="stretched-link"
+                                title="Read prayer">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endunless %}
+    </div>
+</main>
