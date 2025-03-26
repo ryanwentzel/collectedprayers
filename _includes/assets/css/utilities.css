@@ -225,6 +225,11 @@
     padding-right: 6rem;
 }
 
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 .py-8 {
     padding-top: 8rem;
     padding-bottom: 8rem;
