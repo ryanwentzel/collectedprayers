@@ -41,11 +41,13 @@ defaults:
       type: prayers
     values:
       era: reformation
+      category: reformation
   - scope:
       path: "_prayers/modern-church"
       type: prayers
     values:
       era: modern
+      category: modern
 
 pagination:
   enabled: true
