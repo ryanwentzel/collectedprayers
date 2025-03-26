@@ -2,6 +2,7 @@ early:
   id: early
   name: Early Church
   years: 100–800
+  archive_url: /eras/early/
   img:
     sq: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sq.webp
     sm: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sm.webp
@@ -18,6 +19,7 @@ medieval:
   id: medieval
   name: Medieval Church
   years: 800–1500
+  archive_url: /eras/medieval/
   img:
     sq: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sq.webp
     sm: https://cdn.collectedprayers.com/assets/img/content/catacomb-san-gennaro-sm.webp
@@ -29,6 +31,7 @@ reformation:
   id: reformation
   name: Reformation Church
   years: 1500–1700
+  archive_url: /eras/reformation/
   img:
     sq: https://cdn.collectedprayers.com/assets/img/content/noack-marburg-colloquy-1867-sq.webp
     sm: https://cdn.collectedprayers.com/assets/img/content/noack-marburg-colloquy-1867-sm.webp
@@ -45,6 +48,7 @@ modern:
   id: modern
   name: Modern Church
   years: 1700–1945
+  archive_url: /eras/modern/
   img:
     sq: https://cdn.collectedprayers.com/assets/img/content/metropolitan-tabernacle-1875-sq.webp
     sm: https://cdn.collectedprayers.com/assets/img/content/metropolitan-tabernacle-1875-sm.webp
@@ -61,6 +65,7 @@ contemporary:
   id: contemporary
   name: Contemporary Church
   years: 1945–Present
+  archive_url: /eras/contemporary/
   img:
     sq: https://cdn.ryanlwentzel.com/assets/img/content/herbert-assertion-of-liberty-sq.webp
     sm: https://cdn.ryanlwentzel.com/assets/img/content/herbert-assertion-of-liberty-sm.webp

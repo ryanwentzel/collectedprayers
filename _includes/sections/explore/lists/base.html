@@ -1,8 +1,8 @@
 <div class="resource-group">
     <div class="d-flex justify-content-between align-items-center border-bottom py-2 mb-4">
-        <h2 class="fs-sm text-primary text-uppercase tracking-tight align-self-end mb-0">{{ include.label }}</h2>
+        <h2 class="fs-sm text-primary text-uppercase tracking-tight align-self-end mb-0">{{ include.era.name }}</h2>
         <div class="d-none d-lg-block">
-            <a class="fs-sm" href="#">
+            <a class="fs-sm" href="{{ include.era.archive_url | relative_url }}">
                 View all
                 <i class="bi bi-chevron-right"></i>
             </a>
