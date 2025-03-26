@@ -46,6 +46,15 @@ defaults:
     values:
       era: modern
 
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 # Build settings
 plugins:
   - jekyll-feed
