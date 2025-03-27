@@ -2,7 +2,7 @@
 date: 2025-03-26 17:38:05 -0700
 title: Wearied By the Changes and Chances of This Fleeting Life
 lead: >- 
-    A prayer before sleep from <cite>The Scottish Book of Common Prayer</cite> (1929)
+    A prayer for weary souls from <cite>The Scottish Book of Common Prayer</cite> (1929)
 tags:
 source:
     id: scottish_bcp_1929
