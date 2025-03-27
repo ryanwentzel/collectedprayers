@@ -1,4 +1,4 @@
-{% assign items = site.prayers | where: "era", site.data.eras.modern.id %}
+{% assign items = site.prayers | where: "era", site.data.eras.modern.id | reverse %}
 {% unless items.size == 0 %}
 {% include sections/explore/lists/base.html items=items era=site.data.eras.modern %}
 {% endunless %}
