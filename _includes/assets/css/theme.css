@@ -25,6 +25,7 @@
     --theme-color-accent-light-rgb: 252, 178, 86;
 
     --theme-color-neutral-light: #F4F4F4;
+    --theme-color-neutral-light-alt: #F1F0EB;
     --theme-color-neutral-dark: #E9E7DD;
 
     --theme-color-black: #000000;
@@ -37,7 +38,7 @@
     --theme-font-size-large: 1.25rem;
 
     --bs-body-font-family: var(--theme-font-sans-serif);
-    --bs-body-bg: var(--theme-color-neutral-light);
+    --bs-body-bg: var(--theme-color-neutral-light-alt);
     --bs-body-color: var(--theme-color-black-muted);
     
     --bs-primary: var(--theme-color-primary);
