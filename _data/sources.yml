@@ -34,6 +34,11 @@ potts_early_1953:
     <cite>Prayers of the Early Church</cite> 
     (Nashville: Upper Room, 1953), edited by J. Manning Potts
 
+rule_anselm_1872:
+  citation: >-
+    <cite>St. Anselm's Book of Meditations and Prayers</cite> 
+    (London: Burns and Oates, 1872), translated by Martin Rule
+
 scottish_bcp_1929:
   citation: >-
     <cite>The Scottish Book of Common Prayer</site> (Edinburgh: Cambridge University Press, 1929)
