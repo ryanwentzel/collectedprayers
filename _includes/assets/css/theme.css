@@ -38,7 +38,7 @@
     --theme-font-size-large: 1.25rem;
 
     --bs-body-font-family: var(--theme-font-sans-serif);
-    --bs-body-bg: var(--theme-color-neutral-light-alt);
+    --bs-body-bg: var(--theme-color-neutral-light);
     --bs-body-color: var(--theme-color-black-muted);
     
     --bs-primary: var(--theme-color-primary);
