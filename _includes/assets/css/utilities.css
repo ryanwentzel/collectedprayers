@@ -98,6 +98,10 @@
     background-color: var(--theme-color-neutral-light);
 }
 
+.bg-theme-light-alt {
+    background-color: var(--theme-color-neutral-light-alt);
+}
+
 .bg-theme-dark {
     background-color: var(--theme-color-neutral-dark);
 }
