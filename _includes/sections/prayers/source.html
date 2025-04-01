@@ -10,7 +10,7 @@
         {{- org_source.citation }}.&nbsp;
         {%- endunless -%}
         {%- endif %}
-        {%- if page.source.modified %}Adapted from{% endif %}&nbsp;{{ item.citation }}.
+        {%- if page.source.modified %}Adapted from{% endif %}&nbsp;{{ item.citation | smartify }}.
     </p>
 </div>
 {%- endunless %}
