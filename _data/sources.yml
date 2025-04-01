@@ -1,3 +1,6 @@
+anselm:
+  citation: <a href="https://en.wikipedia.org/wiki/Anselm_of_Canterbury">Anselm of Canterbury (11th century)</a>
+
 bcp_1762:
   citation: >-
     <cite>The Book of Common Prayer...
@@ -33,6 +36,11 @@ potts_early_1953:
   citation: >- 
     <cite>Prayers of the Early Church</cite> 
     (Nashville: Upper Room, 1953), edited by J. Manning Potts
+
+potts_middle_1954:
+  citation: >-
+    <cite>Prayers of the Middle Ages: Light from a Thousand Years</cite>
+    (Nashville: Upper Room, 1954), edited by J. Manning Potts
 
 rule_anselm_1872:
   citation: >-
