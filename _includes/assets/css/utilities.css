@@ -73,10 +73,6 @@
     letter-spacing: 0.1em;
 }
 
-.fw-black {
-    font-weight: 900;
-}
-
 /* background colors */
 .bg-theme-primary {
     background-color: var(--theme-color-primary);
