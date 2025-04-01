@@ -1,7 +1,7 @@
 ---
 date: 2025-03-28 06:54:26 -0700
 title: Draw Me to Yourself
-lead: Anselm's (1033/4–1109) prayer of longing for more of Christ
+lead: Anselm of Canterbury's prayer of longing for more of Christ
 tags:
 source:
     id: rule_anselm_1872
