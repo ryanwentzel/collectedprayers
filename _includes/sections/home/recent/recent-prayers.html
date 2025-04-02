@@ -16,14 +16,14 @@
                 <div class="card-body d-flex flex-column h-100 pb-5">
                     <div class="fs-xs text-primary text-uppercase fw-bold my-3">{{ site.data.eras[item.era].name }}</div>
                     <span class="fs-xs text-subtle text-uppercase">{{ item.date | date: "%b %d" }}</span>
-                    <h5 class="card-title mt-2">
+                    <h5 class="card-title my-1">
                         <a href="{{ item.url | relative_url }}" 
                         class="stretched-link"
                         title="Read prayer">
                         {{ item.title }}
                         </a>
                     </h5>
-                    <p class="card-text fs-sm py-2">{{ item.lead }}</p>
+                    <p class="card-text fs-sm pb-2">{{ item.lead }}</p>
                     <div class="mt-auto">
                         <div class="mt-5 d-flex">
                             <a href="{{ item.url | relative_url }}" 
