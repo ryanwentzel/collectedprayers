@@ -1,7 +1,7 @@
 ---
 date: 2025-04-01 14:19:04 -0700
 title: For Pardon, Grace, and Guidance
-lead: An appeal to the Holy Spirit for help by Anselm of Canterbury (11th century)
+lead: An appeal to the Holy Spirit by Anselm of Canterbury (11th century)
 tags:
 source:
     id: potts_middle_1954
