@@ -14,4 +14,4 @@ img:
     alt: Painting by Jan Stanislawski
     caption: Jan Stanislawski, <cite>Park Landscape with a Pond</cite>
 ---
-O Redeemer and Savior, draw me to yourself. Do not let the world's charms entice me, but rather the sweetness of your most blessed love allure me. Draw me, for you have drawn me. Keep me, for you have laid hold of me. You once drew me in your pity, draw me now into your bliss. Let me cling to you inseparably, adore you unweariedly, serve you perseveringly, seek you faithfully, find you happily, and possess you eternally. Amen.
+O Redeemer and Savior, draw me to yourself. Do not let the world's charms entice me, but rather let the sweetness of your most blessed love allure me. Draw me, for you have drawn me. Keep me, for you have laid hold of me. You once drew me in your pity, draw me now into your bliss. Let me cling to you inseparably, adore you unweariedly, serve you perseveringly, seek you faithfully, find you happily, and possess you eternally. Amen.
