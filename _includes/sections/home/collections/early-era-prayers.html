@@ -1,4 +1,4 @@
-{%- assign items = site.prayers | where: "era", site.data.eras.early.id | reverse | limit:3 -%}
+{%- assign items = site.prayers | where: "era", site.data.eras.early.id | reverse -%}
 {%- unless items.size == 0 -%}
 <div class="row gy-5 align-items-center">
     <div class="col-12 col-lg-6 px-5">
@@ -8,7 +8,7 @@
         <h4 class="tracking-wide fs-sm text-uppercase text-primary">Prayers</h4>
         <h3>{{ site.data.eras.early.name }}</h3>
         <ul class="list-group list-group-flush mt-4">
-            {% for item in items -%}
+            {% for item in items limit:4 -%}
             <li class="list-group-item mb-3 pb-2 ps-0 fs-6">
                 <a class="text-decoration-none" href="{{ item.url | relative_url }}">
                     <div class="me-auto text-subtle text-uppercase fs-xs">
