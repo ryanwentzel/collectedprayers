@@ -1,4 +1,8 @@
 /* typography */
+.font-sans {
+    font-family: var(--theme-font-sans-serif);
+}
+
 .font-serif {
     font-family: var(--theme-font-serif);
 }
