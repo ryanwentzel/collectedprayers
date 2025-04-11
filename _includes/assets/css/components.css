@@ -36,6 +36,18 @@
     --bs-nav-link-hover-color: var(--theme-color-secondary);
 }
 
+.pagination {
+    --bs-pagination-color: var(--theme-color-primary);
+    --bs-pagination-bg: var(--theme-color-neutral-light);
+    --bs-pagination-border-color: var(--theme-color-primary);
+    --bs-pagination-hover-color: var(--bs-link-hover-color);
+    --bs-pagination-hover-bg: var(--theme-color-neutral-light);
+    --bs-pagination-hover-border-color: var(--theme-color-primary);  
+    --bs-pagination-active-bg: var(--theme-color-primary);
+    --bs-pagination-active-color: var(--theme-color-white);
+    --bs-pagination-active-border-color: var(--theme-color-primary); 
+}
+
 .separator-primary {
     border-top: 2px solid var(--theme-color-primary);
 }
