@@ -47,13 +47,19 @@ defaults:
       type: prayers
     values:
       era: reformation
-      category: reformation
+      category: reformation-church
   - scope:
       path: "_prayers/modern-church"
       type: prayers
     values:
       era: modern
-      category: modern
+      category: modern-church
+  - scope:
+      path: "_prayers/contemporary-church"
+      type: prayers
+    values:
+      era: contemporary
+      category: contemporary-church
 
 pagination:
   enabled: true
