@@ -1,19 +1,8 @@
-<div class="container-fluid border-bottom py-5 px-3 px-lg-5">
-    <div class="row justify-content-center align-items-center py-6 px-4 gx-4">
-        <div class="col-12 col-lg-6 order-lg-2">
-            <figure>
-                {% assign img = site.data.eras[page.era].img %}
-                {% include components/img/responsive.html img=img 
-                    classes="d-block mx-auto shadow rounded lift" loading="eager" 
-                    fetch_priority="high" %}
-                {% if site.data.eras[page.era].img.caption %}
-                <figcaption class="mt-2 text-end text-subtle fs-xxs pe-2 text-uppercase">{{ site.data.eras[page.era].img.caption }}</figcaption>
-                {% endif %}
-            </figure>
-        </div>
-        <div class="col-12 col-lg-6 mt-5 mt-lg-0 order-lg-1">
-            <h1 class="fs-4 text-primary text-uppercase tracking-widest">{{ site.data.eras[page.era].name }} ({{ site.data.eras[page.era].years}})</h1>
-            <div class="lead fs-3 lh-sm text-subtle">{{ site.data.eras[page.era].description }}</div>
+<div class="container-fluid border-bottom py-5 px-3 px-lg-5 bg-theme-primary">
+    <div class="row justify-content-start align-items-center py-lg-6 px-4 gx-4 min-vh-75">
+        <div class="col-12 col-lg-7">
+            <h1 class="fs-jumbo-3 fw-bold text-secondary">{{ site.data.eras[page.era].name }} ({{ site.data.eras[page.era].years}})</h1>
+            <div class="lead fs-3 lh-sm text-white">{{ site.data.eras[page.era].description }}</div>
         </div>
     </div>
 </div>
