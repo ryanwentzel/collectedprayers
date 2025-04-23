@@ -1,0 +1,22 @@
+{%- assign items = site.prayers | where: "era", site.data.eras.reformation.id -%}
+{%- assign item = items | reverse | find: "featured", true -%}
+{%- unless item == nil %}
+<div class="min-vh-100 position-relative overflow-hidden">
+    <img class="d-block w-100 h-100 position-absolute object-cover object-center" 
+        src="{{ item.img.lg }}" 
+        alt="{{ item.img.alt }}"
+        loading="eager"
+        fetchpriority="high">
+    <div class="overlay overlay-primary">
+        <div class="container">
+            <div class="row justify-content-center pb-6">
+                <div class="col-12 col-lg-8 text-center">
+                    <h1 class="fs-jumbo-1 text-white tracking-tight lh-1">{{ item.title }}</h1>
+                    <p class="lead text-white ">{{ item.lead }}</p>
+                    <a class="d-inline-block mt-3 btn btn-accent btn-lg px-5" href="{{ item.url | relative_url }}">Read</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%- endunless %}
