@@ -15,7 +15,7 @@
                 {% include components/img/responsive.html img=item.img classes="card-img-top" %}
                 <div class="card-body d-flex flex-column h-100 pb-5">
                     <div class="fs-xs text-primary text-uppercase fw-bold my-3">{{ site.data.eras[item.era].name }}</div>
-                    <span class="fs-sm text-subtle text-uppercase">{{ item.date | date: "%B %d, %Y" }}</span>
+                    <span class="fs-xs text-subtle text-uppercase">{{ item.date | date: "%B %d, %Y" }}</span>
                     <h5 class="card-title my-1">
                         <a href="{{ item.url | relative_url }}" 
                         class="stretched-link"
